@@ -1,0 +1,17 @@
+{% assign social_image = site.social_image %}
+{% if page.social_image %}
+  {% assign social_image = page.social_image %}
+{% endif %}
+
+<meta property="og:description" content="{{ page.description }}">
+<meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/images/{{ social_image }}">
+<meta name="twitter:site" content="@{{ site.twitter_handle }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/{{ social_image }}">
+<meta property="og:image:alt" content="{{ page.title }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:type" content="object">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:url" content="{{ site.static_url }}">

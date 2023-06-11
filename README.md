@@ -1,2 +1,2 @@
-# jekyll-template
-Just a simple boilerplate for Jekyll to get you started with your next project.
+# Stamat's Jekyll Boilerplate
+Just a simple Jekyll Boilerplate

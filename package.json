@@ -1,0 +1,22 @@
+{
+  "name": "jekyll-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Just a simple Jekyll boilerplate to get you started with your next project.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamat/jekyll-boilerplate.git"
+  },
+  "author": "stamat",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/stamat/jekyll-boilerplate/issues"
+  },
+  "homepage": "https://github.com/stamat/jekyll-boilerplate#readme",
+  "dependencies": {
+    "@primer/css": "^20.0.0"
+  }
+}
